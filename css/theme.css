@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #304e89;
+  --color-primary-light: #f0f2f7;
+  --color-secondary: #d96907;
+  --color-secondary-light: #f29f07;
+
+  --font-primary: Quicksand, sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
