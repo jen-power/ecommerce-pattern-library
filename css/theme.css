@@ -11,3 +11,13 @@
 html {
   font-family: var(--font-primary);
 }
+
+strong {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-secondary);
+}
