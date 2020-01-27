@@ -51,3 +51,8 @@ cite {
   font-weight: 700;
   font-style: italic;
 }
+
+dl dt {
+  font-weight: 500;
+  font-style: normal;
+}
