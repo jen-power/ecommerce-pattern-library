@@ -17,7 +17,7 @@ patterns:
     description: |
       This card is used on the product list page (i.e. Bedding) to display all the types of products available. These cards are displayed in a grid with no more than 4 cards in a row at large screen sizes.
     width: "16em"
-  products-details-card:
+  product-details-card:
     title: "Product Details Card"
     description: |
       This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).

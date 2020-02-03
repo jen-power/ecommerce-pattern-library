@@ -13,19 +13,6 @@
   border-color: #000;
 }
 
-.btn-sizing {
-  background-color: var(--color-primary-light);
-  color: #000;
-  border: none;
-  padding: .5rem 2rem;
-  transition: none;
-}
-
-.btn-sizing:hover, .btn-sizing:focus, .btn-sizing:active {
-  background-color: var(--color-primary);
-  color: #fff;
-}
-
 .btn-light {
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
