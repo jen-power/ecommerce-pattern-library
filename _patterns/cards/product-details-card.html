@@ -6,14 +6,14 @@
     <h2 class="push-0">Classic Sheet</h2>
     <p class="price mega push">$70</p>
     <p>Text about the item</p>
-    <h6>Size</h6>
-    {% pattern buttons/sizing %}{% pattern buttons/sizing %}{% pattern buttons/sizing %}
-<!-- How do you add classes like push to pattern code? -->
-    <h6>Colour</h6>
     <div class="push">
-      <!-- How can I make the select and label on the same line? How can I adjust the styling of the drop-down arrow? -->
-      <label for="colour"><h6>Quantity</h6></label>
-      <select id="colour" class="selector">
+      <h6>Size</h6>
+      {% pattern buttons/sizing %}{% pattern buttons/sizing %}{% pattern buttons/sizing %}
+    </div>
+    <h6>Colour</h6>
+    <div class="push flex-row flex-align-center">
+      <label class="push-r" for="colour"><h6 class="push-0">Quantity</h6></label>
+      <select class="selector" id="colour">
         <option>1</option>
         <option>2</option>
         <option>3</option>
