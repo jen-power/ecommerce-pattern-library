@@ -1,0 +1,10 @@
+.price {
+  font-family: var(--font-primary);
+}
+
+.selector {
+  background-color: #e2e2e2;
+  border: none;
+  padding-left: 1em;
+  max-width: 4em;
+}

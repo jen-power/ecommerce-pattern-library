@@ -1,6 +1,25 @@
-<div class="card">
-  <img class="img-flex" src="/images/bed.jpg" alt="">
-  <h2>Classic Sheet</h2>
-  <p>$70</p>
-  {% pattern buttons/light %}
+<div class="grid">
+  <div class="unit xs-1 m-1-2">
+    <img class="img-flex" src="/images/bed.jpg" alt="">
+  </div>
+  <div class="unit xs-1 m-1-2 gutter">
+    <h2 class="push-0">Classic Sheet</h2>
+    <p class="price mega push">$70</p>
+    <p>Text about the item</p>
+    <h6>Size</h6>
+    {% pattern buttons/sizing %}{% pattern buttons/sizing %}{% pattern buttons/sizing %}
+<!-- How do you add classes like push to pattern code? -->
+    <h6>Colour</h6>
+    <div class="push">
+      <!-- How can I make the select and label on the same line? How can I adjust the styling of the drop-down arrow? -->
+      <label for="colour"><h6>Quantity</h6></label>
+      <select id="colour" class="selector">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+      </div>
+    {% pattern buttons/light %}
+  </div>
 </div>
