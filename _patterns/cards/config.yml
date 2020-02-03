@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  Cards are used whenever there are images displayed.
+
+patterns:
+  banner:
+    title: "Banner"
+    description: |
+      This card is only used once on the homepage as the main banner.
+  featured-products-card:
+    title: "Featured Products Card"
+    description: |
+      This card is used on the homepage in a section that shows only 3 cards, each with a different type of sheet.
+  bedding-page-card:
+    title: "Bedding Page Card"
+    description: |
+      This card is used on the product list page (i.e. Bedding) to display all the types of products available. These cards are displayed in a grid with no more than 4 cards in a row at large screen sizes.
+  products-details-card:
+    title: "Product Details Card"
+    description: |
+      This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).
