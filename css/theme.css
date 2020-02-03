@@ -16,6 +16,7 @@ strong {
   font-family: var(--font-secondary);
   font-weight: 700;
   font-style: italic;
+  color: var(--color-primary);
 }
 
 em {
