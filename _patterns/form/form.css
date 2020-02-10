@@ -1,4 +1,4 @@
-input {
+input, select {
   border-width: thin;
 }
 
@@ -12,11 +12,6 @@ fieldset {
 
 legend {
   margin-bottom: .5em;
-}
-
-input:invalid,
-input[type="checkbox"]:invalid + label::before {
-  border-color: #f33;
 }
 
 .error-message {
