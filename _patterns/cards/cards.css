@@ -8,3 +8,11 @@
   padding-left: 1em;
   max-width: 4em;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .banner-push-r {
+    padding-right: 1em;
+  }
+
+}
