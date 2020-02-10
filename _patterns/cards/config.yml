@@ -3,10 +3,6 @@ description: |
   Cards are used whenever there are images displayed.
 
 patterns:
-  banner:
-    title: "Banner"
-    description: |
-      This card is only used once on the homepage as the main banner.
   featured-products-card:
     title: "Featured Products Card"
     description: |

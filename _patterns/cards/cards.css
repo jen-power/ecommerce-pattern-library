@@ -16,11 +16,3 @@ article {
 .stars {
   color: var(--color-secondary-light);
 }
-
-@media only screen and (min-width: 60em) {
-
-  .banner-push-r {
-    padding-right: 1em;
-  }
-
-}

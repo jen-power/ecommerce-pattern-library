@@ -1,0 +1,9 @@
+title: "Sections"
+description: |
+  Sections are used throughout the homepage and on Product Details pages to separate content.
+
+patterns:
+  banner:
+    title: "Banner"
+    description: |
+      This card is only used once on the homepage as the main banner.
