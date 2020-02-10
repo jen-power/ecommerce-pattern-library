@@ -9,6 +9,14 @@
   max-width: 4em;
 }
 
+article {
+  border: 1px solid var(--color-primary);
+}
+
+.stars {
+  color: var(--color-secondary-light);
+}
+
 @media only screen and (min-width: 60em) {
 
   .banner-push-r {
