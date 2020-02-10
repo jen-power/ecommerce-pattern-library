@@ -1,0 +1,47 @@
+title: "Form"
+description: |
+  Form fields are used on the Checkout Form page as well as on Product Details Page.
+
+patterns:
+  credit-field:
+    title: "Credit Field"
+    description: |
+      This field is only used when the user needs to enter a number and no text (i.e. a credit card number).
+    width: "20em"
+  credit-radio:
+    title: "Credit Radio Buttons"
+    description: |
+      This field is only used once on the Checkout Form page for users to pick which payment method they are using.
+  email-field:
+    title: "Email Field"
+    description: |
+      This field is only used when the user needs to enter their e-mail on the Checkout Form page.
+    width: "20em"
+  text-field:
+    title: "Text Field"
+    description: |
+      This field is used whenever text needs to be input (i.e. name, address, city, etc.) on the Checkout Form page.
+    width: "20em"
+  sizes:
+    title: "Size Buttons"
+    description: |
+      These radio buttons are used on Product Details pages and allows the user to choose which size they would like to purchase.
+  province:
+    title: "Province List"
+    description: |
+      This drop-down list is used on the Checkout Form page.
+    width: "20em"
+  phone-field:
+    title: "Phone Number Field"
+    description: |
+      This field is only used when the user needs to enter their phone number, not any other type of number. This is only used on the Checkout Form page.
+    width: "20em"
+  security-code-field:
+    title: "Security Code/CVV Field"
+    description: |
+      This field is only used for entering a credit card security code (CVV) on the Checkout Form page. It is formatted as a password and will not show the digits that are typed.
+    width: "20em"
+  colours:
+    title: "Colour Options"
+    description: |
+      This field is only used on Product Details pages and allows the user to choose which colour they would like to purchase.
