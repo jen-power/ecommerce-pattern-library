@@ -4,7 +4,7 @@
   border: none;
   padding: .5rem 2rem;
   transition: none;
-  width: 10em;
+  width: 100%;
   text-align: center;
 }
 
@@ -12,4 +12,21 @@
 input:checked + .btn-sizing {
   background-color: var(--color-primary);
   color: #fff;
+}
+
+.wrap {
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wrap > div {
+    width: 30%;
+  }
+
 }
