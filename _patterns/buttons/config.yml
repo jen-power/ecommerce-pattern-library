@@ -11,7 +11,3 @@ patterns:
     title: "Light"
     description: |
       This button is used for the homepage banner call-to-action, as well as Add to Cart and Checkout functions. It should always be used on a white background.
-  sizing:
-    title: "Sizing"
-    description: |
-      This button is only to be used for the size options on the product details page.
