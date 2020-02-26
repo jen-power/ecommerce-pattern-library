@@ -7,6 +7,10 @@
   max-width: 10em;
 }
 
+.footer i {
+  color: #fff;
+}
+
 @media only screen and (min-width: 60em) {
 
   .tl-mq {
