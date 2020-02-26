@@ -1,0 +1,29 @@
+.task-bar,
+.task-bar nav a {
+  background-color: var(--color-secondary);
+  color: #fff;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-secondary);
+  padding-bottom: .1em;
+}
+
+a:hover {
+  border-bottom: 1px solid #fff;
+  transition: all .6s linear;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .tl-mq {
+    text-align: left;
+  }
+
+  .tr-mq {
+    text-align: right;
+  }
+
+}
