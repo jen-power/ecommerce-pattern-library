@@ -2,3 +2,7 @@
   background-color: var(--color-primary);
   color: #fff;
 }
+
+.footer-logo {
+  max-width: 10em;
+}
