@@ -1,3 +1,11 @@
+.masthead a {
+  color: #707070;
+}
+
+.masthead i {
+  color: #000;
+}
+
 .task-bar,
 .task-bar nav a {
   background-color: var(--color-secondary);
@@ -5,13 +13,13 @@
   font-weight: 400;
 }
 
-a {
+.task-bar nav a {
   text-decoration: none;
   border-bottom: 1px solid var(--color-secondary);
   padding-bottom: .1em;
 }
 
-a:hover {
+.task-bar nav a:hover {
   border-bottom: 1px solid #fff;
   transition: all .6s linear;
 }
@@ -24,6 +32,14 @@ a:hover {
 
   .tr-mq {
     text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead ul {
+    margin: 0;
   }
 
 }
