@@ -7,6 +7,15 @@
   max-width: 10em;
 }
 
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: var(--color-secondary-light);
+}
+
 .footer i {
   color: #fff;
 }
