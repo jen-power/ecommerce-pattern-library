@@ -1,5 +1,20 @@
-.masthead a {
+.masthead {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 1em;
+}
+
+.masthead nav a {
   color: #707070;
+}
+
+.masthead nav a:hover,
+.masthead nav a:focus {
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+.masthead img {
+  max-width: 9em;
 }
 
 .masthead i {
@@ -40,6 +55,10 @@
 
   .masthead ul {
     margin: 0;
+  }
+
+  .masthead {
+    padding-bottom: 0;
   }
 
 }
