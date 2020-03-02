@@ -4,10 +4,10 @@
   </div>
   <div class="unit xs-1 l-1-2 text-center">
     <div class="push">
-      <strong class="tera">Make your bed and lie in it</strong>
+      <strong class="tera">{{include.text}}</strong>
     </div>
     <div>
-      {% pattern buttons/light %}
+        {% pattern buttons/light url=include.button_url text=include.button_text %}
     </div>
   </div>
 </div>

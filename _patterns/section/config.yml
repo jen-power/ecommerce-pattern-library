@@ -7,3 +7,13 @@ patterns:
     title: "Banner"
     description: |
       This card is only used once on the homepage as the main banner.
+    fields:
+      - name: text
+        type: string
+        example: "Make your bed and lie in it"
+      - name: button_text
+        type: string
+        example: "Shop Now"
+      - name: button_url
+        type: url
+        example: "/"

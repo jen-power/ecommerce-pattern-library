@@ -11,3 +11,10 @@ patterns:
     title: "Light"
     description: |
       This button is used for the homepage banner call-to-action, as well as Add to Cart and Checkout functions. It should always be used on a white background.
+    fields:
+      - name: text
+        type: string
+        example: "Add to Cart"
+      - name: url
+        type: url
+        example: "/"

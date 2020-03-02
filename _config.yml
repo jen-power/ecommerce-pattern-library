@@ -15,3 +15,6 @@ patternbot:
       The primary colours represent a cool and clean environment. The primary navy should be used for button backgrounds and text on a white background. The primary light should be used as a background for sections and some buttons in their inactive state (i.e. the buttons for size of the sheets are primary light when they are inactive and primary what a button is selected).
     colors.secondary: |
       The secondary colours are warmer and are used for the toolbar above the navigation, some buttons, and as an accent colour for the stars for the review section of each product.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the websites primary header & footer.
