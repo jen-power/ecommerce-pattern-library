@@ -21,6 +21,11 @@
   color: #000;
 }
 
+.masthead i:hover,
+.masthead i:focus {
+  color: var(--color-primary);
+}
+
 .task-bar,
 .task-bar nav a {
   background-color: var(--color-secondary);
