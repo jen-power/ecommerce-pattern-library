@@ -9,6 +9,7 @@
 
 .footer a {
   color: #fff;
+  transition: all .2s linear;
 }
 
 .footer a:hover,
@@ -18,6 +19,12 @@
 
 .footer i {
   color: #fff;
+  transition: all .2s linear;
+}
+
+.footer i:hover,
+.footer i:focus {
+  color: var(--color-secondary-light);
 }
 
 @media only screen and (min-width: 60em) {

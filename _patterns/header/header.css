@@ -19,6 +19,7 @@
 
 .masthead i {
   color: #000;
+  transition: all .2s linear;
 }
 
 .masthead i:hover,

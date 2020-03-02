@@ -1,0 +1,11 @@
+title: "Header"
+description: |
+  The header is only used once at the top of every page on the website.
+
+patterns:
+  task-bar:
+    title: "Task Bar"
+    description: This navigation is used at the very top of every page and is a secondary navigation.
+  header:
+    title: "Header Navigation"
+    description: This navigation is used underneath the task bar and is the main navigation for all the pages for the site.
