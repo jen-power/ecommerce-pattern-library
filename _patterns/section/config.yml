@@ -17,3 +17,25 @@ patterns:
       - name: button_url
         type: url
         example: "/"
+  company:
+    title: "Company"
+    description: |
+      This card is used only once on the homepage as a banner.
+    fields:
+      - name: title
+        type: string
+        example: "Our Company"
+      - name: text
+        type: string
+        example: "We strive to provide quality bedsheets and other home decor to a new age of consumers. We approach designing each piece with a clean, modern aesthetic — quality is always at the heart and versatility is the goal."
+  featured-products-section:
+    title: "Featured Products"
+    description: |
+      This card is used only once on the homepage and is used to display three of the featured products cards from the Cards pattern.
+    fields:
+      - name: title
+        type: string
+        example: "Featured Products"
+      - name: text
+        type: string
+        example: "Products we love — and we're sure you will, too."
