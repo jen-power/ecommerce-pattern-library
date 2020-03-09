@@ -60,3 +60,8 @@ dl dt {
   font-weight: 500;
   font-style: normal;
 }
+
+/* @utility Sets the background colour to blue */
+.blue-bg {
+  background-color: var(--color-primary-light);
+}

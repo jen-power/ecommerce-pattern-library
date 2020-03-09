@@ -21,6 +21,8 @@ patternbot:
 collections:
   products:
     output: true
+  reviews:
+    output: false
 defaults:
   - scope:
       path: _products
