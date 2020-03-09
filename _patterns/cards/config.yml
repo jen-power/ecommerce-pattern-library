@@ -38,18 +38,11 @@ patterns:
     description: |
       This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).
     fields:
-      - name: product
-        type: string
-        example: "Classic Sheet"
-      - name: price
-        type: string
-        example: "$70"
-      - name: description
-        type: string
-        example: "This is our classic sheet, the one that started it all."
-      - name: image
-        type: url
-        example: "/images/bed.jpg"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   review:
     title: "Review"
     description: |
@@ -69,8 +62,7 @@ patterns:
     description: |
       This card is used on the homepage in a section that houses quick links to reviews. This is only used on the homepage in a set of three.
     width: 14em;
-    colors:
-      background: "--color-primary-light"
+    background: "--color-primary-light"
     fields:
       - name: name
         type: string
