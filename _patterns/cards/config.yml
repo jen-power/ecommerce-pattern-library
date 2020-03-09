@@ -69,6 +69,8 @@ patterns:
     description: |
       This card is used on the homepage in a section that houses quick links to reviews. This is only used on the homepage in a set of three.
     width: 14em;
+    colors:
+      background: "--color-primary-light"
     fields:
       - name: name
         type: string
