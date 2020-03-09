@@ -7,6 +7,13 @@ patterns:
     title: "Basic"
     description: |
       This is a general purpose button that is used in all situations that are not specified in other button type descriptions. It should always be used in front of light backgrounds.
+    fields:
+      - name: text
+        type: string
+        example: "Find out more"
+      - name: url
+        type: url
+        example: "/"
   light:
     title: "Light"
     description: |
