@@ -8,15 +8,39 @@ patterns:
     description: |
       This card is used on the homepage in a section that shows only 3 cards, each with a different type of sheet.
     width: "20em"
+    fields:
+      - name: product
+        type: string
+        example: "Classic Sheet"
+      - name: price
+        type: string
+        example: "$70"
   bedding-page-card:
     title: "Bedding Page Card"
     description: |
       This card is used on the product list page (i.e. Bedding) to display all the types of products available. These cards are displayed in a grid with no more than 4 cards in a row at large screen sizes.
     width: "16em"
+    fields:
+      - name: product
+        type: string
+        example: "Classic Sheet"
+      - name: price
+        type: string
+        example: "$70"
   product-details-card:
     title: "Product Details Card"
     description: |
       This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).
+    fields:
+      - name: product
+        type: string
+        example: "Classic Sheet"
+      - name: price
+        type: string
+        example: "$70"
+      - name: description
+        type: string
+        example: "This is our classic sheet, the one that started it all."
   review:
     title: "Review"
     description: |

@@ -3,9 +3,9 @@
     <img class="img-flex" src="/images/bed.jpg" alt="white sheet with yellow pillows">
   </div>
   <div class="unit xs-1 m-1-2 gutter">
-    <h2 class="push-0">Classic Sheet</h2>
-    <p class="price mega push">$70</p>
-    <p>Text about the item</p>
+    <h2 class="push-0">{{include.product}}</h2>
+    <p class="price mega push">{{include.price}}</p>
+    <p>{{include.description}}</p>
     <div class="push">
       <h6>Size</h6>
       {% pattern form/sizes %}
