@@ -1,16 +1,8 @@
 <div class="flex-row wrap">
+  {% for size in include.sizes %}
   <div>
-    <input name="size" id="full" type="radio">
-    <label name="size" for="full" class="btn-sizing hide-custom-input">Full</label>
+    <input name="size" id="size-{{forloop.index}}" type="radio">
+    <label name="size" for="size-{{forloop.index}}" class="btn-sizing hide-custom-input">{{size}}</label>
   </div>
-
-  <div>
-    <input name="size" id="queen" type="radio">
-    <label name="size" for="queen" class="btn-sizing hide-custom-input">Queen</label>
-  </div>
-
-  <div>
-    <input name="size" id="king" type="radio">
-    <label name="size" for="king" class="btn-sizing hide-custom-input">King</label>
-  </div>
+  {% endfor %}
 </div>

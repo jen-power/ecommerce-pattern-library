@@ -33,6 +33,12 @@ patterns:
     title: "Size Buttons"
     description: |
       These radio buttons are used on Product Details pages and allows the user to choose which size they would like to purchase.
+    fields:
+      - name: sizes
+        type: List
+        data:
+          source: "site.data.examples.sizes"
+          type: List
   province:
     title: "Province List"
     description: |

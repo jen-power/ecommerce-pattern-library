@@ -1,5 +1,6 @@
 <div class="gutter">
-  <img class="img-flex" src="{{include.image}}" alt="white sheet with yellow pillows">
-  <h5 class="push-0">{{include.product}}</h5>
-  <p>{{include.price}}</p>
+  <img class="img-flex" src="{{include.data.image}}" alt="white sheet with yellow pillows">
+  <h5 class="push-0">{{include.data.name}}</h5>
+  <p>{{include.data.price}}</p>
+  {% pattern buttons/basic text="Buy Now" url="include.data.url" %}
 </div>

@@ -1,14 +1,14 @@
-<div class="grid">
+<div class="grid island wrapper">
   <div class="unit xs-1 m-1-2">
     <img class="img-flex" src="{{include.data.image}}" alt="white sheet with yellow pillows">
   </div>
   <div class="unit xs-1 m-1-2 gutter">
     <h2 class="push-0">{{include.data.name}}</h2>
-    <p class="price mega push">{{include.price}}</p>
+    <p class="price mega push">{{include.data.price}}</p>
     <p>{{include.data.description}}</p>
     <div class="push">
       <h6>Size</h6>
-      {% pattern form/sizes %}
+      {% pattern form/sizes sizes=include.data.sizes %}
     </div>
     <div class="push">
       <h6>Colour</h6>
