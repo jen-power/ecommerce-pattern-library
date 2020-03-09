@@ -16,3 +16,7 @@ article {
 .stars {
   color: var(--color-secondary-light);
 }
+
+.round {
+  border-radius: 20px;
+}

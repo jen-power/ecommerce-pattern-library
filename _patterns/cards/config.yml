@@ -17,3 +17,32 @@ patterns:
     title: "Product Details Card"
     description: |
       This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).
+  review:
+    title: "Review"
+    description: |
+      This card is used on the product details page and shows reviews for the specific product. This is only used on product detail pages.
+    fields:
+      - name: name
+        type: string
+        example: "Rebecca"
+      - name: review
+        type: string
+        example: "This is the most comfortable bedsheet I’ve ever slept in! I’ve already ordered two more sets."
+      - name: rating
+        type: string
+        example: "★★★★☆"
+  review-small:
+    title: "Review Small"
+    description: |
+      This card is used on the homepage in a section that houses quick links to reviews. This is only used on the homepage in a set of three.
+    width: 14em;
+    fields:
+      - name: name
+        type: string
+        example: "Rebecca"
+      - name: review
+        type: string
+        example: "This is the most comfortable bedsheet I’ve ever slept in! I’ve already ordered two more sets."
+      - name: rating
+        type: string
+        example: "★★★★☆"
