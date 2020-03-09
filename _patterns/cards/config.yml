@@ -15,6 +15,9 @@ patterns:
       - name: price
         type: string
         example: "$70"
+      - name: image
+        type: url
+        example: "/images/bed.jpg"
   bedding-page-card:
     title: "Bedding Page Card"
     description: |
@@ -27,6 +30,9 @@ patterns:
       - name: price
         type: string
         example: "$70"
+      - name: image
+        type: url
+        example: "/images/bed.jpg"
   product-details-card:
     title: "Product Details Card"
     description: |
@@ -41,6 +47,9 @@ patterns:
       - name: description
         type: string
         example: "This is our classic sheet, the one that started it all."
+      - name: image
+        type: url
+        example: "/images/bed.jpg"
   review:
     title: "Review"
     description: |
