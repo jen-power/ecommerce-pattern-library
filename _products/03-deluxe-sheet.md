@@ -5,6 +5,7 @@ description: |
 image: "/images/bed-3.jpg"
 alt: Image of white sheets and a black bedframe
 price: $90
+rating: ★★★★☆
 sizes:
   - "Twin"
   - "Queen"

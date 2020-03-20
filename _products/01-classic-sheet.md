@@ -5,6 +5,7 @@ description: |
 image: "/images/bed.jpg"
 alt: Image of white sheets
 price: $70
+rating: ★★★★☆
 sizes:
   - "Full"
   - "Queen"

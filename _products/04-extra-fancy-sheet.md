@@ -5,6 +5,7 @@ description: |
 image: "/images/bed-2.jpg"
 alt: Image of white and yellow sheets
 price: $140
+rating: ★★★★★
 sizes:
   - "Full"
   - "Queen"
