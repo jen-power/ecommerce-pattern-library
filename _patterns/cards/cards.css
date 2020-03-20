@@ -30,6 +30,12 @@ article {
   display: none;
 }
 
+.bedding-links:hover,
+.bedding-links:focus {
+  color: var(--color-secondary);
+  transition: .5s;
+}
+
 @media only screen and (min-width: 25em) {
 
   .small-disappear {
