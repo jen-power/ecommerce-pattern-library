@@ -1,8 +1,8 @@
 ---
-name: "Classic Sheet"
+name: "Cozy Sheet"
 description: |
-  This is our classic sheet, the one that started it all.
-image: "/images/bed.jpg"
+  This is our cozy sheet, keeping you warm throughout the night — or day.
+image: "/images/bed-9.jpg"
 alt: Image of white sheets
 price: $70
 rating: ★★★★☆

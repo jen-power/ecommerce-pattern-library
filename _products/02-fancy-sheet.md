@@ -10,8 +10,4 @@ sizes:
   - "Full"
   - "Queen"
   - "King"
-colors:
-  - "White"
-  - "Blue"
-  - "Yellow"
 ---

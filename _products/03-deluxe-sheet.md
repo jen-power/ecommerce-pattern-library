@@ -10,8 +10,4 @@ sizes:
   - "Twin"
   - "Queen"
   - "King"
-colors:
-  - "White"
-  - "Blue"
-  - "Grey"
 ---
