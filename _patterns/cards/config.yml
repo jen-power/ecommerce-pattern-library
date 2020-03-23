@@ -60,7 +60,7 @@ patterns:
   review-small:
     title: "Review Small"
     description: |
-      This card is used on the homepage in a section that houses quick links to reviews. This is only used on the homepage in a set of three.
+      This card is used on the homepage in a section entitled Reviews. This is only used on the homepage in a set of three.
     width: 14em;
     background: "--color-primary-light"
     fields:
