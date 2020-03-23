@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% pattern cards/product-details-card data=page %}
+<h3 class="text-center pad-t-2">Reviews</h3>
 {% for review in site.reviews %}
   <div class="unit [ xs-1 ] wrapper">
     {% pattern cards/review data=review %}
