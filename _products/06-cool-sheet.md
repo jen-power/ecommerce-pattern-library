@@ -10,4 +10,8 @@ sizes:
   - "Twin"
   - "Full"
   - "Queen"
+colours:
+  - "#f00"
+  - "#0f0"
+  - "#00f"
 ---
