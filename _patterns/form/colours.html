@@ -1,9 +1,9 @@
 <div class="flex-row">
   <div>
-    <input name="colour" id="white" type="radio">
+    <input name="colour" id="colour-{{forloop.index}}" type="radio">
     {% for col in page.colours %}
     <div style="background-color:{{col}}">
-      <label id="white" name="colour" for="colour-{{forloop.index}}" class="square push-r-1-2 hide-custom-input"</label>
+      <label name="colour" for="colour-{{forloop.index}}" class="square push-r-1-2 hide-custom-input"</label>
     </div>
     {% endfor %}
   </div>
