@@ -2,9 +2,7 @@
 
   {% for col in page.colours %}
     <input name="colour" id="colour-{{forloop.index}}" type="radio">
-    <div>
-      <label style="background-color:{{col}}" name="colour" for="colour-{{forloop.index}}" class="square push-r-1-2 hide-custom-input"></label>
-    </div>
+    <label style="background-color:{{col}}" name="colour" for="colour-{{forloop.index}}" class="square push-r-1-2 hide-custom-input"></label>
   {% endfor %}
 
 </div>

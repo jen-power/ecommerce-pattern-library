@@ -14,4 +14,8 @@ colours:
   - "#5b7ab4"
   - "#898989"
   - "#fff"
+colour-name:
+  - Blue
+  - Grey
+  - White
 ---
