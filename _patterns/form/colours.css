@@ -4,7 +4,7 @@
   border: .5px solid #d2d2d2;
 }
 
-.colour-square-white {
+/* .colour-square-white {
   background-color: #fff;
 }
 
@@ -18,7 +18,7 @@
 
 .colour-square-yellow {
   background-color: #e0c14f;
-}
+} */
 
 .square:hover, .square:focus, .square:active,
 input:checked + .square {
