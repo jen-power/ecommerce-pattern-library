@@ -11,11 +11,10 @@ sizes:
   - "Full"
   - "Queen"
 colours:
-  - "#5b7ab4"
-  - "#898989"
-  - "#fff"
-colour-name:
-  - Blue
-  - Grey
-  - White
+  - label: "Blue"
+    hex: "#5b7ab4"
+  - label: "Grey"
+    hex: "#898989"
+  - label: "White"
+    hex: "#fff"
 ---
