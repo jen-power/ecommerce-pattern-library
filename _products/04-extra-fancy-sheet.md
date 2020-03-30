@@ -10,4 +10,9 @@ sizes:
   - "Full"
   - "Queen"
   - "King"
+colours:
+  - label: "Yellow"
+    hex: "#e0c14f"
+  - label: "White"
+    hex: "#fff"
 ---

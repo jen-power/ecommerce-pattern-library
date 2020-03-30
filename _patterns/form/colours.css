@@ -4,22 +4,6 @@
   border: .5px solid #d2d2d2;
 }
 
-/* .colour-square-white {
-  background-color: #fff;
-}
-
-.colour-square-blue {
-  background-color: #5b7ab4;
-}
-
-.colour-square-grey {
-  background-color: #898989;
-}
-
-.colour-square-yellow {
-  background-color: #e0c14f;
-} */
-
 .square:hover, .square:focus, .square:active,
 input:checked + .square {
   border: 3px solid #000;

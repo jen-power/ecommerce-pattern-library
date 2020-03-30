@@ -10,4 +10,9 @@ sizes:
   - "Single"
   - "Twin"
   - "Full"
+colours:
+  - label: "Blue"
+    hex: "#5b7ab4"
+  - label: "White"
+    hex: "#fff"
 ---
