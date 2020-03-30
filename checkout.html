@@ -1,0 +1,35 @@
+---
+layout: default
+highlight_nav: bedding
+---
+<section class="gutter-2">
+  <div class="text-center">
+    <h2 class="push-1-2 pad-t">My Cart — Checkout</h2>
+    <p class="text-right">Already have an account? <a href="#" class="bold">Log in</a></p>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1">
+      <h6>Contact information</h6>
+    </div>
+    <div class="unit xs-1 l-1-2">
+      {% pattern form/email-field %}
+    </div>
+  </div>
+  <div class="grid">
+    <div class="unit xs-1">
+      <h6>Shipping information</h6>
+    </div>
+    <div class="unit xs-1 l-1-2">
+      {% pattern form/text-field field-name="First Name" field-error="Please provide your given name." %}
+    </div>
+    <div class="unit xs-1 l-1-2">
+      {% pattern form/text-field field-name="Last Name" field-error="Please provide your family name." %}
+    </div>
+    <div class="unit xs-1 l-1-2">
+      {% pattern form/text-field field-name="Address" field-error="Please provide your shipping address." %}
+    </div>
+    <div class="unit xs-1 l-1-2">
+      {% pattern form/text-field field-name="Apartment, suite, etc. (optional)" %}
+    </div>
+  </div>
+</section>
