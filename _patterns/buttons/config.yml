@@ -25,3 +25,11 @@ patterns:
       - name: url
         type: url
         example: "/"
+  form-submit:
+    title: "Form Submit"
+    description: |
+      This button is used at the end of forms so that the form can be submitted. It has the type of submit and no hypertext reference.
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
