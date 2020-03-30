@@ -29,6 +29,15 @@ patterns:
       - name: field-error
         type: string
         example: "Please provide your name."
+  text-field-optional:
+    title: "Text Field (Optional)"
+    description: |
+      This field is used whenever text needs to be input and it is not required to fill out the field.
+    width: "20em"
+    fields:
+      - name: field-name-optional
+        type: string
+        example: "Apartment"
   sizes:
     title: "Size Buttons"
     description: |
