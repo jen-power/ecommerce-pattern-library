@@ -2,6 +2,11 @@ input, select {
   border-width: thin;
 }
 
+.space {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
 label {
   font-weight: 500;
   color: #898989;
