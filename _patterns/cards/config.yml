@@ -17,7 +17,7 @@ patterns:
   product-details-card:
     title: "Product Details Card"
     description: |
-      This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage).
+      This card is used on the product details page (i.e. when a specific product is clicked from the product list page or from the featured products on the homepage). Size and colour options must be specified in the product markdown file found in the folder _products.
     fields:
       - name: data
         type: object
