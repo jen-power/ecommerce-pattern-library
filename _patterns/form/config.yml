@@ -46,7 +46,7 @@ patterns:
       - name: sizes
         type: List
         data:
-          source: "site.data.examples.sizes"
+          source: "site.data.size-examples.sizes"
           type: List
   province:
     title: "Province List"
@@ -66,7 +66,13 @@ patterns:
   colours:
     title: "Colour Options"
     description: |
-      This field is only used on Product Details pages and allows the user to choose which colour they would like to purchase.
+      This field is only used on Product Details pages and allows the user to choose which colour they would like to purchase. Colour options must be specified in the Markdown files for each product in _products folder.
+    fields:
+      - name: colours
+        type: List
+        data:
+          source: "site.data.colour-examples.colours"
+          type: List
   exp-month:
     title: "Expiration Month"
     description: |

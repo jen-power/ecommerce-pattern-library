@@ -6,7 +6,7 @@ patterns:
   featured-products-card:
     title: "Featured Products Card"
     description: |
-      This card is used on the homepage in a section that shows only 3 cards, each with a different type of sheet.
+      This card is used on the homepage in a section that shows only 3 cards, each with a different type of sheet. Review information must be entered as separate Markdown files in the folders _reviews.
     width: "20em"
     fields:
       - name: product
@@ -21,7 +21,7 @@ patterns:
   bedding-page-card:
     title: "Bedding Page Card"
     description: |
-      This card is used on the product list page (i.e. Bedding) to display all the types of products available. These cards are displayed in a grid with no more than 4 cards in a row at large screen sizes.
+      This card is used on the product list page (i.e. Bedding) to display all the types of products available. These cards are displayed in a grid with no more than 4 cards in a row at large screen sizes. Review information must be entered as separate Markdown files in the folders _reviews.
     width: "16em"
     fields:
       - name: product
@@ -48,15 +48,11 @@ patterns:
     description: |
       This card is used on the product details page and shows reviews for the specific product. This is only used on product detail pages.
     fields:
-      - name: name
-        type: string
-        example: "Rebecca"
-      - name: review
-        type: string
-        example: "This is the most comfortable bedsheet I’ve ever slept in! I’ve already ordered two more sets."
-      - name: rating
-        type: string
-        example: "★★★★☆"
+      - name: data
+        type: object
+        data:
+          source: "site.reviews[0]"
+          type: Review
   review-small:
     title: "Review Small"
     description: |
@@ -64,12 +60,8 @@ patterns:
     width: 14em;
     background: "--color-primary-light"
     fields:
-      - name: name
-        type: string
-        example: "Rebecca"
-      - name: review
-        type: string
-        example: "This is the most comfortable bedsheet I’ve ever slept in! I’ve already ordered two more sets."
-      - name: rating
-        type: string
-        example: "★★★★☆"
+      - name: data
+        type: object
+        data:
+          source: "site.reviews[0]"
+          type: Review
