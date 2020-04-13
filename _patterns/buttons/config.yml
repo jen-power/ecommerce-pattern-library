@@ -25,6 +25,9 @@ patterns:
       - name: url
         type: url
         example: "/"
+      - name: aria
+        type: string
+        example: "Shop now for bedding"
   form-submit:
     title: "Form Submit"
     description: |
