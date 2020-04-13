@@ -1,6 +1,6 @@
 <div class="flex-row">
 
-  {% for col in page.colours %}
+  {% for col in include.colours %}
     <input name="colour" id="colour-{{forloop.index}}" type="radio">
     <label style="background-color:{{col.hex}}" name="colour" for="colour-{{forloop.index}}" class="square push-r-1-2 hide-custom-input" aria-label="{{col.label}}" title="{{col.label}}"></label>
   {% endfor %}
